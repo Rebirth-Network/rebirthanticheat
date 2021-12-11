@@ -17,7 +17,7 @@ execute @a[scores={welcomed=1,XNEF=!3342}] ~~~ tag @s add theif
 
 execute @r[scores={welcome=120..121}] ~~~ function rebirth/modules/permban
 
-XNEZ
+
 
 execute @r[scores={welcomed=1}] ~~~ scoreboard players set @s welcome 0
 #This hides this from the in-game function command directory
