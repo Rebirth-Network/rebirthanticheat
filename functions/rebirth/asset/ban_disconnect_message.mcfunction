@@ -19,6 +19,10 @@ execute @s[scores={BanWarn=4},tag=!theif] ~~~ scoreboard players set @s BanWarn 
 execute @s[scores={welcomed=1,XNEZ=!3892}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cUNAUTHORIZED Rebirth §¶§b→ §dLooks like the owner tried to remove credit files. §bDiscord.gg/3Es9zc2qKc"}]}
 execute @s[scores={welcomed=1,XNEF=!3342}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cUNAUTHORIZED Rebirth §¶§b→ §dLooks like the owner tried to remove credit files. §bDiscord.gg/3Es9zc2qKc"}]}
 
+#Prohibit further gameplay from player
+execute @s[scores={IIB=3..,BanFly=3..,BanCBE=3..,BanWarn=3..,BanPhase=3..}] ~~~ event entity @s rebirth:ban_main
+execute @s[tag=BanCreative] ~~~ event entity @s rebirth:ban_main
+
 #This hides this from the in-game function command directory
 execute @f ~~~ hide
 tag @f[tag=""] add hide

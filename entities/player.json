@@ -1915,7 +1915,6 @@
 					"command": [
 						"execute @s[tag=!stafftag,scores={IIM=1}] ~~~ replaceitem entity @s slot.weapon.mainhand 0 air",
 						"execute @s[tag=!stafftag,scores={IIM=1}] ~~~ function rebirth/asset/clearspawneggasset",
-						"execute @s[tag=!stafftag] ~~~ execute @s[scores={IIM=1}] ~~~ function rebirth/asset/illegalitemkickmsg",
 						"execute @s[tag=!stafftag] ~~~ execute @s[scores={IIM=1}] ~~~ function rebirth/asset/illegalitemwarn"
 					]
 				}

@@ -1,6 +1,6 @@
 execute @s[tag=!stafftag] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→ You must be staff to use this command!"}]}
 
-execute @s[tag=stafftag] ~~~ tellraw @s {"rawtext":[{"text":"§¶§c========= Module Status ========="}]}
+execute @s[tag=stafftag] ~~~ tellraw @s {"rawtext":[{"text":"§¶§c========= Module Statuses ========="}]}
 
 execute @s[tag=stafftag,scores={HMM=1}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bHotbar Message §7[ §¶§2ENABLED §7]"}]}
 execute @s[tag=stafftag,scores={HMM=0}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bHotbar Message §7[ §¶§cDISABLED §7]"}]}
@@ -19,6 +19,9 @@ execute @s[tag=stafftag,scores={TPM=0}] ~~~ tellraw @s {"rawtext":[{"text":"§¶
 
 execute @s[tag=stafftag,scores={AFM=1}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bAnti-Fly §7[ §¶§2ENABLED §7]"}]}
 execute @s[tag=stafftag,scores={AFM=0}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bAnti-Fly §7[ §¶§cDISABLED §7]"}]}
+
+execute @s[tag=stafftag,scores={APM=1}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bAnti-Phase §7[ §¶§2ENABLED §7]"}]}
+execute @s[tag=stafftag,scores={APM=0}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bAnti-Phase §7[ §¶§cDISABLED §7]"}]}
 
 execute @s[tag=stafftag,scores={NEM=1}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bDisable-Echest §7[ §¶§2ENABLED §7]"}]}
 execute @s[tag=stafftag,scores={NEM=0}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→§¶§bDisable-Echest §7[ §¶§cDISABLED §7]"}]}

@@ -187,6 +187,7 @@ scoreboard objectives add cbespawn dummy cbespawn
 scoreboard objectives add flycount dummy flycount
 scoreboard objectives add flyreset dummy flyreset
 scoreboard objectives add phasecount dummy phasecount
+scoreboard objectives add phasereset dummy phasereset
 scoreboard objectives add hometp dummy hometp
 scoreboard objectives add welcomed dummy welcomed
 scoreboard objectives add entitycount dummy entitycount

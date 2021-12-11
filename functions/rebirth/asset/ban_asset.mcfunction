@@ -11,6 +11,3 @@ execute @s[tag=!stafftag,scores={warn=3}] ~~~ scoreboard players add @s BanWarn 
 
 #useful stuff lol
 execute @s ~~~ function rebirth/asset/ban_disconnect_message
-
-#Prohibit further gameplay from player
-execute @s[scores={IIB=3..,BanFly=3..,BanCBE=3..,BanWarn=3..,BanPhase=3..}] ~~~ event entity @s rebirth:ban_main
