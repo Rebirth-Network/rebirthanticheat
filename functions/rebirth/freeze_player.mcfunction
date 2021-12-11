@@ -1,0 +1,1 @@
+function rebirth/asset/freeze_player_asset
