@@ -7,9 +7,8 @@ execute @s[tag=!stafftag] ~~~ execute @a[tag=stafftag] ~~~ playsound note.pling 
 execute @s[tag=!stafftag] ~~~ scoreboard players add @s fzplr 1
 execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ gamerule sendcommandfeedback false
 execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ effect @s slowness 99999999 255
+execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ effect @s slow_falling 99999999 255
 execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ effect @s strength 99999999 255
-execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ fill ~ ~2 ~ ~ ~2 ~ barrier
-execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ fill ~ ~-1 ~ ~ ~-1 ~ barrier
 execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ summon armor_stand fzplr
 execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ gamemode a
 execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ effect @e[name=fzplr,type=armor_stand] invisibility 99999999 2 true
@@ -18,8 +17,6 @@ execute @s[tag=!stafftag,scores={fzplr=1}] ~~~ tellraw @a {"rawtext":[{"text":"�
 #If frozen then init unfreeze
 execute @s[tag=!stafftag,scores={fzplr=2}] ~~~ effect @s clear
 execute @s[tag=!stafftag,scores={fzplr=2}] ~~~ gamemode s
-execute @s[tag=!stafftag,scores={fzplr=2}] ~~~ fill ~ ~2 ~ ~ ~2 ~ air
-execute @s[tag=!stafftag,scores={fzplr=2}] ~~~ fill ~ ~-1 ~ ~ ~-1 ~ air
 execute @s[tag=!stafftag,scores={fzplr=2}] ~~~ kill @e[r=3,name=fzplr]
 execute @s[tag=!stafftag,scores={fzplr=2}] ~~~ gamerule sendcommandfeedback true
 execute @s[tag=!stafftag,scores={fzplr=2}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cRebirth → §d"},{"selector":"@s"},{"text":" §¶§bhas been §6unfrozen §bby a operator."}]}

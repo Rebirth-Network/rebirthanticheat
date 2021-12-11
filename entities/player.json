@@ -1946,7 +1946,7 @@
             "deals_damage": false
           },
           //oneshot framework given to Rebirth by balloon
-          //Damage Sensor Channel in this discord -> discord.gg/wJxaJ4UGRC
+          //Damage Sensor Channel in this discord -> discord.gg/3Es9zc2qKc
           {
             "on_damage": {
               "filters": {

@@ -196,6 +196,7 @@ scoreboard objectives add tpa dummy
 
 #module scoreboards
 scoreboard objectives add ACM dummy ACM
+scoreboard objectives add EACM dummy EACM
 scoreboard objectives add AFM dummy AFM
 scoreboard objectives add APM dummy APM
 scoreboard objectives add BBM dummy BBM
@@ -224,6 +225,7 @@ scoreboard objectives add OSM dummy
 scoreboard objectives add SSDEBUG dummy SSDEBUG
 scoreboard objectives add afmtoggle dummy afmtoggle
 scoreboard objectives add acmtoggle dummy acmtoggle
+scoreboard objectives add eacmtoggle dummy eacmtoggle
 scoreboard objectives add bbmtoggle dummy bbmtoggle
 scoreboard objectives add semtoggle dummy semtoggle
 scoreboard objectives add elpmtoggle dummy elpmtoggle
@@ -278,6 +280,7 @@ scoreboard objectives add z-axis dummy y-axis
 #Default Toggles
 scoreboard players set @s SSDEBUG 0
 scoreboard players set @s acmtoggle 0
+scoreboard players set @s eacmtoggle 0
 scoreboard players set @s bbmtoggle 0
 scoreboard players set @s semtoggle 0
 scoreboard players set @s elpmtoggle 0
@@ -302,6 +305,7 @@ scoreboard players set @s osmtoggle 0
 
 #Give everyone default module scoreboard scores
 scoreboard players set @s ACM 0
+scoreboard players set @s EACM 0
 scoreboard players set @s AFM 0
 scoreboard players set @s APM 0
 scoreboard players set @s BBM 0

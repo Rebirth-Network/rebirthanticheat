@@ -18,8 +18,8 @@
                     ],
                     "on_entry": [
                         "/clear",
-                        "/me §¶§cRebirth → §bKicked for CBE Exploits",
-                        "/kick @s §¶§cRebirth → §lCBE is for skids.",
+                        "/me §¶§cRebirth → §bYou were Kicked for CBE.",
+                        "/kick @s §¶§cRebirth → §lCBE is for children.",
                         "@s bridge:remove_command_id_1"
                     ]
                 }

@@ -31,6 +31,13 @@
 						]
 					},
 					{
+						"name": { "rawtext": [ { "text": "§l§2EACM" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ dialogue open @s @s toggle_module_pag4",
+							"/execute @s[tag=stafftag] ~~~ function toggle/extra_anticbe"
+						]
+					},
+					{
 						"name": { "rawtext": [ { "text": "§l§9Page 1" } ] },
 						"commands": [
 							"/execute @s[tag=stafftag] ~~~ dialogue open @s @s toggle_module_pag1"

@@ -16,8 +16,8 @@ execute @s[scores={BanPhase=4},tag=!theif] ~~~ scoreboard players set @s BanPhas
 execute @s[scores={BanCBE=4},tag=!theif] ~~~ scoreboard players set @s BanCBE 3
 execute @s[scores={BanWarn=4},tag=!theif] ~~~ scoreboard players set @s BanWarn 3
 
-execute @s[scores={welcomed=1,XNEZ=!3892}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cUNAUTHORIZED Rebirth §¶§b→ §dLooks like the owner tried to remove credit files. §bDiscord.gg/wJxaJ4UGRC"}]}
-execute @s[scores={welcomed=1,XNEF=!3342}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cUNAUTHORIZED Rebirth §¶§b→ §dLooks like the owner tried to remove credit files. §bDiscord.gg/wJxaJ4UGRC"}]}
+execute @s[scores={welcomed=1,XNEZ=!3892}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cUNAUTHORIZED Rebirth §¶§b→ §dLooks like the owner tried to remove credit files. §bDiscord.gg/3Es9zc2qKc"}]}
+execute @s[scores={welcomed=1,XNEF=!3342}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cUNAUTHORIZED Rebirth §¶§b→ §dLooks like the owner tried to remove credit files. §bDiscord.gg/3Es9zc2qKc"}]}
 
 #This hides this from the in-game function command directory
 execute @f ~~~ hide

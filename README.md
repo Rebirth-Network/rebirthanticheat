@@ -5,7 +5,7 @@ Rebirth is an anticheat designed for Minecraft Bedrock edition realms or servers
 
 ## Acknowledgements
 
- - [Hydra Anticheat v1](https://discord.gg/wJxaJ4UGRC)
+ - [Hydra Anticheat v1](https://discord.gg/3Es9zc2qKc)
  - [RomanMender](https://github.com/romanmender)
 
 ## Authors
@@ -16,7 +16,7 @@ Rebirth is an anticheat designed for Minecraft Bedrock edition realms or servers
 
 ## Deployment
 
-To get started with applying Rebirth to your realm, you'll first want to make a local world. Make sure this world has all experimental features enabled as well as cheats enabled as well. After you spawn in you may save & quit. Now, you'll replace the world on your realm with this world. This is to make sure that everything in Rebirth works properly on the realm. For access to Github and early updates, as well as the ability to report bugs, please join the discord!! https://discord.gg/wJxaJ4UGRC
+To get started with applying Rebirth to your realm, you'll first want to make a local world. Make sure this world has all experimental features enabled as well as cheats enabled as well. After you spawn in you may save & quit. Now, you'll replace the world on your realm with this world. This is to make sure that everything in Rebirth works properly on the realm. For access to Github and early updates, as well as the ability to report bugs, please join the discord!! https://discord.gg/3Es9zc2qKc
 
 When you join you'll be welcomed with a few messages along with being prompted on what the help command is. By performing the help command while having staff access, you'll see this message.
 
@@ -96,9 +96,9 @@ When a player dies, lightning will strike as well as a particle explosion follow
 
 [Documentation](https://linktodocumentation)
 
-  Rebirth is an Anti Cheat that utilizes functions to protect your Minecraft Realm. By simply applying this behavior pack to your realm, you will have access to a tool that better protects your realm against exploits that may crash/lag your realm. Rebirth is not a plugin, and cannot prevent people from cheating on your realm. However, it does act as a good deterrent to prevent game-breaking exploits from being used, as well as a few other tools for staff members to use. Staff tools such as good TPS control from the "Auto Lag Clear" and the "Extra Lag Prevent" modules as well as tools to better manage players, and even view in-game info about those players such as their current infraction amount, their current game mode, and other important details that Rebirth will keep track of for you. It is customizable in the sense that you can toggle the features you want on/off without ever touching the addon files or using command blocks. Without anything turned on, Rebirth by default will keep anyone who isn't a staff member from entering creative mode. Rebirth has too much to cover on this page, so the developer has provided a showcase/tutorial that you may view below on how to better use ! Any comments that you may want to share with us below, will be seen much faster if you provide that feedback within our Rebirth Discord Server (https://discord.gg/wJxaJ4UGRC).
+  Rebirth is an Anti Cheat that utilizes functions to protect your Minecraft Realm. By simply applying this behavior pack to your realm, you will have access to a tool that better protects your realm against exploits that may crash/lag your realm. Rebirth is not a plugin, and cannot prevent people from cheating on your realm. However, it does act as a good deterrent to prevent game-breaking exploits from being used, as well as a few other tools for staff members to use. Staff tools such as good TPS control from the "Auto Lag Clear" and the "Extra Lag Prevent" modules as well as tools to better manage players, and even view in-game info about those players such as their current infraction amount, their current game mode, and other important details that Rebirth will keep track of for you. It is customizable in the sense that you can toggle the features you want on/off without ever touching the addon files or using command blocks. Without anything turned on, Rebirth by default will keep anyone who isn't a staff member from entering creative mode. Rebirth has too much to cover on this page, so the developer has provided a showcase/tutorial that you may view below on how to better use ! Any comments that you may want to share with us below, will be seen much faster if you provide that feedback within our Rebirth Discord Server (https://discord.gg/3Es9zc2qKc).
 ## Support
 
-Be sure to join the Rebirth Discord (https://discord.gg/wJxaJ4UGRC)
+Be sure to join the Rebirth Discord (https://discord.gg/3Es9zc2qKc)
 Also, click HERE to see a showcase/tutorial video on how to use the AntiCheat
 as there is too much to simply say on this page.
