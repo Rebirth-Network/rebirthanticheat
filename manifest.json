@@ -3,7 +3,7 @@
 	"header": {
 		"name": "§¶§7⋰ §bRebirth Anticheat DEV §7[§21§7.§20§7] §7⋱",
 		"description": "§6§lExperimental Features §4REQUIRED §7: \n§¶§c⋮ Made By §2Rebirth Studios ",
-		"uuid": "b77a1dc3-7a77-4d90-a36c-cdba1e336808",
+		"uuid": "b58d0f40-bc6f-4a68-a8c1-aba5d5b88632",
 		"version": [
 			1,
 			0,
@@ -18,7 +18,7 @@
 	"modules": [
 		{
 			"type": "data",
-			"uuid": "4c37083f-ff85-4931-bf36-345331c338f8",
+			"uuid": "58236680-5799-40ae-a8be-2b238274b0cf",
 			"version": [
 				1,
 				1,
@@ -28,18 +28,18 @@
 		{
             "description": "Rebirth Gametest Framework",
             "type": "javascript",
-            "uuid": "21c183fe-0c37-11ec-82a8-0242ac130003",
+            "uuid": "303ed2a8-a443-4186-8bd7-f29f6004daeb",
             "version": [0, 0, 1],
             "entry": "scripts/example/index.js"
         }
 	],
 	"dependencies": [
         {
-            "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+            "uuid": "7951ce6a-6e6b-4e51-9f3c-110d4bfbf71e",
             "version": [ 0, 1, 0 ]
         },
         {
-            "uuid": "6f4b6893-1bb6-42fd-b458-7fa3d0c89616",
+            "uuid": "77df7acb-045d-499f-8e1e-91119b8437a3",
             "version": [ 0, 1, 0 ]
         }
     ]

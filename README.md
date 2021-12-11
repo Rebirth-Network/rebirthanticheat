@@ -1,17 +1,18 @@
 
-<img src="https://i.imgur.com/XSoKqE1.png" border="0">
+<img src="https://i.imgur.com/r8HNmu4.png" border="0">
 
-Rebirth is an anticheat designed for Minecraft Bedrock edition realms or servers ran by BDS. This has been tested on many Major Networks and has never had a false positive.
+Rebirth Anti-cheat was made from source code originally from UAC. Rebirth was made to be a powerful and effective anti-cheat to stop an array of hacks that alter the performance of realms and BDS servers.
 
 ## Acknowledgements
 
  - [Hydra Anticheat v1](https://discord.gg/3Es9zc2qKc)
  - [RomanMender](https://github.com/romanmender)
+ - [Unity Anti-Cheat] (https://discord.gg/3Es9zc2qKc)
 
 ## Authors
 
-- [@NightwalkerLots](https://twitter.com/LastoftheSorrow)
-- [@Catastrophy](https://twitter.com/LastoftheSorrow)
+- [Point](Point#4479)
+- [Rebirth Studios](https://discord.gg/3Es9zc2qKc)
 
 
 ## Deployment
