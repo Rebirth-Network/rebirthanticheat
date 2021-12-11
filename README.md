@@ -7,7 +7,7 @@ Rebirth Anti-cheat was made from source code originally from UAC. Rebirth was ma
 
  - [Hydra Anticheat v1](https://discord.gg/3Es9zc2qKc)
  - [RomanMender](https://github.com/romanmender)
- - [Unity Anti-Cheat] (https://discord.gg/3Es9zc2qKc)
+ - [Rebirth Anti-Cheat] (https://discord.gg/3Es9zc2qKc)
 
 ## Authors
 

@@ -1,4 +1,4 @@
-tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§c§b§l→ §d"},{"selector":"@s"},{"text":"'s §6DEBUG STATS"},{"text":" §¶§c§b◄"}]}
+tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§c§b§l→ §d"},{"selector":"@s"},{"text":"'s §6DEBUG STATS"},{"text":" §¶§c§b←"}]}
 execute @s ~~~ function rebirth/asset/gmcheck
 execute @s[tag=stafftag] ~~~ function rebirth/asset/last_command_check_asset
 execute @s[scores={tpmtoggle=1}] ~~~ execute @s ~~~ function rebirth/asset/timeplayed

@@ -1,4 +1,4 @@
-tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§c§b§l→ §d"},{"selector":"@s"},{"text":"'s §6ARMOR STATUS"},{"text":" §¶§c§b◄"}]}
+tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§c§b§l→ §d"},{"selector":"@s"},{"text":"'s §6ARMOR STATUS"},{"text":" §¶§c§b←"}]}
 
 
 #Enchanted helmets
