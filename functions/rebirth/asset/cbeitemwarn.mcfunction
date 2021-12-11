@@ -19,7 +19,7 @@ execute @s[scores={warncbe=9}] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cRebirt
 
 #base warns after attempts divisable by 3
 execute @s[scores={warncbe=3}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth → §bYou have §7[§c1§7/§23§7] §b Rebirth warnings"}]}
-execute @s[scores={warncbe=6}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth → §bYou have been Rebirth Warned. Your next warning will result in a Season Ban. §7[§c2§7/§23§7]"}]}
+execute @s[scores={warncbe=6}] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth → §bYou have been Warned. Your next warning will result in a Season Ban. §7[§c2§7/§23§7]"}]}
 
 #This hides this from the in-game function command directory
 execute @f ~~~ hide
