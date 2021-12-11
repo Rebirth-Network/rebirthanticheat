@@ -1,0 +1,60 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "rebirth_basic_commands",
+				"npc_name": { "rawtext": [ { "text": "§l§bRebirth AntiCheat §7[§2v1.0§7]" } ] },
+				"text": { "rawtext": [ { "text": "§l§cRebirth → §5GUI BASIC COMMANDS MENU" } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "text": "§l§2VANISH" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/vanish",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_basic_commands"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§2TGM" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/tgm",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_basic_commands"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§2LAGCLEAR" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/lagclear",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_basic_commands"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§2CLEARCHAT" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/clearchat",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_basic_commands"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§2CREDIT" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/credit",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_basic_commands"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§5MAIN MENU" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/gui"
+						]
+					}
+				],
+				"on_close_commands": [
+                    "  "
+				]
+			}
+		]
+	}
+}

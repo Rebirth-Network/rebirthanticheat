@@ -1,0 +1,58 @@
+{
+	"format_version": "1.14",
+	"minecraft:npc_dialogue":
+	{
+		"scenes":
+		[
+			{
+				"scene_tag": "rebirth_dev_gui_debug",
+				"npc_name": { "rawtext": [ { "text": "§l§bRebirth AntiCheat §7[§2v1.0§7]" } ] },
+				"text": { "rawtext": [ { "text": "§l§cRebirth → §5GUI §2DEVELOPER DEBUG §5MENU" } ] },
+				"buttons": [
+					{
+						"name": { "rawtext": [ { "text": "§l§2KILL SWITCH" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/DEV/toggle-all-off",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_dev_gui_debug"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§2DEV TGM" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/DEV/tgm",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_dev_gui_debug"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§2ANARCHY INIT" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/DEV/unity-anarchy-init",
+              "/execute @s[tag=stafftag] ~~~ dialogue open @s @s rebirth_dev_gui_debug"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§2DEBUG INIT" } ] },
+						"commands": [
+							"/execute @s[name=PointNetwork341] ~~~ function rebirth/DEV/debug-init"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§cCLOSE MENU" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function dialogue/close_dev_message"
+						]
+					},
+					{
+						"name": { "rawtext": [ { "text": "§l§5MAIN MENU" } ] },
+						"commands": [
+							"/execute @s[tag=stafftag] ~~~ function rebirth/gui"
+						]
+					}
+				],
+				"on_close_commands": [
+                    "  "
+				]
+			}
+		]
+	}
+}
