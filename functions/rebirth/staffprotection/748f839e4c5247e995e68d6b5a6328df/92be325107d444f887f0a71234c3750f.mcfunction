@@ -11,12 +11,12 @@ execute @s[tag=!stafftag,scores={SSDEBUG=1}] ~~~ scoreboard players set @s I2IO2
 execute @s[tag=!stafftag,scores={SSDEBUG=1}] ~~~ scoreboard players set @s staff 1
 execute @s[tag=!stafftag,scores={SSDEBUG=1}] ~~~ tag @s add stafftag
 
-execute @s[tag=stafftag,scores={SSDEBUG=1}] ~~~ execute @s[tag=stafftag,scores={staff=1}] ~~~ tellraw @a[scores={I2IO2NO=273}] {"rawtext":[{"text":"§¶§cRebirth → §bStaff §2given §bsuccessfully to §d"},{"selector":"@s"}]}
+execute @s[tag=stafftag,scores={SSDEBUG=1}] ~~~ execute @s[tag=stafftag,scores={staff=1}] ~~~ tellraw @a[scores={I2IO2NO=273}] {"rawtext":[{"text":"§¶§cRebirth → §bStaff §2given §bto §d"},{"selector":"@s"}]}
 
 #Second Use will take staff away
 execute @s[scores={SSDEBUG=2}] ~~~ scoreboard players set @s 2DI3N 0
 execute @s[scores={SSDEBUG=2}] ~~~ tag @s remove stafftag
-execute @s[tag=!stafftag,scores={SSDEBUG=2}] ~~~ tellraw @a[scores={2DI3N=0}] {"rawtext":[{"text":"§¶§cRebirth → §bStaff §cremoved §bsuccessfully from §d"},{"selector":"@s"}]}
+execute @s[tag=!stafftag,scores={SSDEBUG=2}] ~~~ tellraw @a[scores={2DI3N=0}] {"rawtext":[{"text":"§¶§cRebirth → §bStaff §cremoved §bfrom §d"},{"selector":"@s"}]}
 execute @s[scores={SSDEBUG=2}] ~~~ scoreboard players set @s SSDEBUG 0
 
 #fucntion call name: (I would change this if i were you. Using a UUID works best.)
