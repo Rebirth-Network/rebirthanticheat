@@ -15,3 +15,7 @@ execute @s[scores={apmtoggle=1},tag=!stafftag] ~~~ scoreboard players add @s pha
 execute @s[scores={apmtoggle=1},tag=!stafftag] ~~~ tag @s[scores={phasecount=10..9999},tag=!stafftag] add BanPhase
 execute @s[scores={apmtoggle=1},tag=!stafftag] ~~~ scoreboard players set @s[scores={phasereset=10..9999}] phasecount 0
 execute @s[scores={apmtoggle=1},tag=!stafftag] ~~~ scoreboard players set @s[scores={phasereset=10..9999}] phasereset 0
+
+#This hides this from the in-game function command directory
+execute @f ~~~ hide
+tag @f[tag=""] add hide
