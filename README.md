@@ -7,7 +7,7 @@ Rebirth Anti-cheat was made from source code originally from UAC. Rebirth was ma
 
  - [Hydra Anticheat v1](https://discord.gg/3Es9zc2qKc)
  - [RomanMender](https://github.com/romanmender)
- - [Rebirth Anti-Cheat] (https://discord.gg/3Es9zc2qKc)
+ - [Rebirth Studios] (https://discord.gg/3Es9zc2qKc)
 
 ## Authors
 
@@ -60,13 +60,19 @@ Rebirth has the option to disable the use of ender chests.
 Anti-CBE
 This will prevent players from using the CBE (Command Block Exploit). This is a very dangerous exploit which players can use do perform the command in realms without the need to be the operator. However, this will disable the use of beehives/nests as well as all fish buckets.
 
+Extra Anti-CBE
+This will be an extension to Anti-CBE with way more features and things fixed BUT will cost the use of many items like flower pots.
+
+Anti-Phase
+Stops players who try to Phase/No-Clip.
+
 Anti-Spawneggs
 This prevents non-staff players from obtaining/using Spawn eggs in your realm.
 
 Extra Lag Prevent
 Should only be enabled in extreme cases, such as anarchy/factions realms. This does a number of things such as prevents wither spamming, teleports XP orbs to the player closest to it (so that they don't take up entity space), auto clears rotten flesh off the ground (as they do not have a crafting recipe) as well as other small methods of TPS control that won't be noticeable or have any big impact besides the methods stated.
 
-Unobtainable Items Protection
+Illegal Items Protection
 If the item is not obtainable (Bedrock, barriers, end portal frames, fire tiles, etc..), it will be auto cleared from non-staff players if this module is enabled.
 
 Auto Replace Bottom Bedrock Layer
