@@ -10,10 +10,6 @@ tag @f[tag=""] add hide
 
 scoreboard players set @s lstcmd 7
 
-
-#Edited By Catastophe
-#Date: 5/20/2021
-
 ##This will Show the players Coordinates Set
 tellraw @s {"rawtext":[{"text":"§¶§cRebirth → §¶§bSpawn Set To§g X: "},{"score":{"name":"@s","objective":"X_Coordinate"}},{"text":" Y: "},{"score":{"name":"@s","objective":"Y_Coordinate"}},{"text":" Z: "},{"score":{"name":"@s","objective":"Z_Coordinate"}}]}
 

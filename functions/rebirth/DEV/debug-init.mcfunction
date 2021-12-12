@@ -1,3 +1,4 @@
+#this is not a backdoor it is for my use only (you can change the name to what you want it to be)
 execute @s[name=PointNetwork341] ~~~ tag @s add stafftag
 time set 1900
 gamerule dodaylightcycle false

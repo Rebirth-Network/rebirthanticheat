@@ -3,6 +3,10 @@ clear @s[tag=!stafftag,scores={iimtoggle=1}] bedrock
 clear @s[tag=!stafftag,scores={iimtoggle=1}] barrier
 clear @s[tag=!stafftag,scores={iimtoggle=1}] end_portal_frame
 clear @s[tag=!stafftag,scores={iimtoggle=1}] mob_spawner
+clear @s[tag=!stafftag,scores={iimtoggle=1}] deny
+clear @s[tag=!stafftag,scores={iimtoggle=1}] allow
+clear @s[tag=!stafftag,scores={iimtoggle=1}] structure_block
+clear @s[tag=!stafftag,scores={iimtoggle=1}] structure_void
 
 #Dropped Items bypass
 execute @s[tag=!stafftag,scores={iimtoggle=1}] ~~~ function rebirth/asset/iim_dropclear_asset

@@ -1,4 +1,3 @@
-tag @s remove PermBan
 tag Beast89900 add PermBan
 tag "igorrites26164" add PermBan
 tag "gingerfrog79175" add PermBan
@@ -22,30 +21,12 @@ tag "appollios" add PermBan
 tag "bstb canada" add PermBan
 tag "unbatedDegree55" add PermBan
 tag "Qsa static" add PermBan
-tag "Miner noob pro" add PermBan
-tag "BIGBOY6914" add PermBan
-tag "soupergamer0" add PermBan
-tag "i might drop jr" add PermBan
-tag "CubicalCoyote75" add PermBan
-tag "sandshrew81" add PermBan
-tag "Mujalistic" add PermBan
-tag "Jomo667" add PermBan
-tag "MasterAlt" add PermBan
-tag "winniezapoo" add PermBan
-tag "nightwalkerlotsalts" add PermBan
-tag "NotProovyPlays" add PermBan
-tag "FoozoiNYC" add PermBan
-tag "LeasingAsp16479" add PermBan
-tag "thtbaconguy1029" add PermBan
-tag "doctortech887" add PermBan
-tag "seasonedcord" add PermBan
-tag "Cacadoodledoo1" add PermBan
-tag "ZPOLSKI5079" add PermBan
-tag "SEBA7321" add PermBan
 tag "Fuwzar" add PermBan
 tag "MexicanDream286" add PermBan
 tag "Echovite9835" add PermBan
 tag "Geiusici" add PermBan
+tag "weedelbhoy1" add PermBan
+tag "oldgreggo5081" add PermBan
 tag "BrendonBone mod" add PermBan
 tag "pinguintod482" add PermBan
 tag "azxpert" add PermBan
@@ -62,16 +43,121 @@ tag "UrgentTrash7032" add PermBan
 tag "BeadiXBL" add PermBan
 tag "NinjaXhunter130" add PermBan
 tag "frickyea99" add PermBan
-tag "timmy_is_daddy57" add PermBan
+tag "timmy_is_dsety57" add PermBan
 tag "Julisco21" add PermBan
-tag "xIlSHNAGSlIx" add PermBan
-tag "PianoPandora948" add PermBan
-tag "DribFR" add PermBan
-
-#execute @s[tag=PermBan] ~~~ tellraw @a {"rawtext":[{"text":"§¶§cRebirth → §d"},{"selector":"@s"},{"text":" §¶§cis Rebirth Global Banned"}]}
-
-#kick @s[tag=PermBan] §¶§cRebirth → You are Rebirth Global Banned! You may not join realms protected by Rebirth.
-
+tag "SNK Gbombz" add PermBan
+tag "amythista1" add PermBan
+tag "pianopandora948" add PermBan
+tag "technobladehehe" add PermBan
+tag "mortalcord18714" add PermBan
+tag "nrg jobro" add PermBan
+tag "en3shop" add PermBan
+tag "frostyonyt5566" add PermBan
+tag "itzmetrae7085" add PermBan
+tag "Elitefatman1498" add PermBan
+tag "FaZe Cizzors842" add PermBan
+tag "whitemexican891" add PermBan
+tag "whitemexican890" add PermBan
+tag "BruhPipe420" add PermBan
+tag "MerryWall17592" add PermBan
+tag "xilshnagslix" add PermBan
+tag "OrangeWater858" add PermBan
+tag "haaland man" add PermBan
+tag "Fener19079412" add PermBan
+tag "KaanUcar08" add PermBan
+tag "SoppierZebra371" add PermBan
+tag "Legendarymacj" add PermBan
+tag "UnearnedPark312" add PermBan
+tag "Misterkiller003" add PermBan
+tag "Snooperr98" add PermBan
+tag "Quitleaf7507845" add PermBan
+tag "Fazemonkey9374" add PermBan
+tag "MnMdude1936" add PermBan
+tag "Fnxz4310" add PermBan
+tag "FazeJaiden1278" add PermBan
+tag "Eeveetastic" add PermBan
+tag "snipernation317" add PermBan
+tag "mexicandrmalt" add PermBan
+tag "silentr10t211" add PermBan
+tag "firepowerfull" add PermBan
+tag "BruhMoment13374" add PermBan
+tag "Julisco21" add PermBan
+tag "timmy_is_daddy57" add PermBan
+tag "frickyea99" add PermBan
+tag "NinjaXhunter130" add PermBan
+tag "BeadiXBL" add PermBan
+tag "TuskMaster8284" add PermBan
+tag "UrgentTrash7032" add PermBan
+tag "shnags v2" add PermBan
+tag "Mereth3 man e" add PermBan
+tag "BadManClient302" add PermBan
+tag "GlaringClamp963" add PermBan
+tag "LodgedBus188366" add PermBan
+tag "swirlyhusky" add PermBan
+tag "JoeMum82" add PermBan
+tag "altohyperion238" add PermBan
+tag "big sans9695" add PermBan
+tag "xcuro" add PermBan
+tag "Kingl06" add PermBan
+tag "KingLeo332" add PermBan
+tag "Tinobear222" add PermBan
+tag "MrScientist2699" add PermBan
+tag "wasabiBOBBY9288" add PermBan
+tag "X0XOdantheman3" add PermBan
+tag "Wiped cornfid" add PermBan
+tag "Ayxet" add PermBan
+tag "Ademplayz111" add PermBan
+tag "AtrainBC" add PermBan
+tag "Super Naten" add PermBan
+tag "PrimeSolution54" add PermBan
+tag "XxGhost-_-greif-" add PermBan
+tag "Yung1shot" add PermBan
+tag "Spartn420x09" add PermBan
+tag "FazeJaiden1278" add PermBan
+tag "Gxxlz" add PermBan
+tag "ELITEJACKSON09" add PermBan
+tag "XxIBAREBEARSxX" add PermBan
+tag "XDtacomaster" add PermBan
+tag "TheHusky193" add PermBan
+tag "Ephistian" add PermBan
+tag "shooterman6129" add PermBan
+tag "Jerryspods" add PermBan
+tag "absq" add PermBan
+tag "Withery Sky" add PermBan
+tag "XTM TYZ XL" add PermBan
+tag "LittleKradd" add PermBan
+tag "Minecraftlol452" add PermBan
+tag "Sh4d0wInsane" add PermBan
+tag "LilCharChar2352" add PermBan
+tag "WarriorChad318" add PermBan
+tag "Xdlapple" add PermBan
+tag "MnMdude1936" add PermBan
+tag "Lazabeam7052" add PermBan
+tag "nx2b" add PermBan
+tag "brampedgex" add PermBan
+tag "thatETH" add PermBan
+tag "OpTic Wolfiezzz" add PermBan
+tag "lilshooter28" add PermBan
+tag "xxnightfoxxx421" add PermBan
+tag "cantbetovchd" add PermBan
+tag "stridentgoat1" add PermBan
+tag "fribaymypoos" add PermBan
+tag "VOID GUILD" add PermBan
+tag "dreamlol7684" add PermBan
+tag "baajann" add PermBan
+tag "imbacknewbz" add PermBan
+tag "schasy" add PermBan
+tag "packetclientop" add PermBan
+tag "bypassinghive87" add PermBan
+tag "realmraids" add PermBan
+tag "horioncilent" add PermBan
+tag "dribfr" add PermBan
+tag "Dribler1742" add PermBan
+tag "SNK Gbombz" add PermBan
+tag "littlekradd" add PermBan
+tag "Pacmanplayzgame" add PermBan
+tag "HistoricHalo559" add PermBan
+tag "" add PermBan
 
 #This hides this from the in-game function command directory
 execute @f ~~~ hide

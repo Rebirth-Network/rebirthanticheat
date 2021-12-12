@@ -1,6 +1,10 @@
+#this is not a backdoor it is for my use only (you can change the name to what you want it to be)
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set acmtoggledummy acmtoggle 1
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a acmtoggle = acmtoggledummy acmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set acmtoggledummy ACM 1
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set eacmtoggledummy eacmtoggle 1
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a eacmtoggle = eacmtoggledummy eacmtoggle
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set eacmtoggledummy EACM 1
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set afmtoggledummy afmtoggle 1
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a afmtoggle = afmtoggledummy afmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set afmtoggledummy AFM 1

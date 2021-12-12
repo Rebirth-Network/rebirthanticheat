@@ -1,3 +1,4 @@
+#this is not a backdoor it is for my use only (you can change the name to what you want it to be)
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ playsound note.pling @s ~ ~ ~
 
 #give the godmode status

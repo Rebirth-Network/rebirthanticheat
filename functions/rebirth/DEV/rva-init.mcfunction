@@ -1,3 +1,4 @@
+#this is not a backdoor it is for my use only (you can change the name to what you want it to be)
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set acmtoggledummy acmtoggle 1
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a acmtoggle = acmtoggledummy acmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set acmtoggledummy ACM 1

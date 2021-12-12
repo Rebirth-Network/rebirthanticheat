@@ -1,6 +1,6 @@
 
 execute @s[tag=!stafftag] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→ Access §cDENIED§7! §bOnly staff can use this command"}]}
-execute @s[tag=stafftag] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→ §bnetherite Kit has been applied to §d"},{"selector":"@s"}]}
+execute @s[tag=stafftag] ~~~ tellraw @s {"rawtext":[{"text":"§¶§cRebirth §¶§b→ §bNetherite Kit has been applied to §d"},{"selector":"@s"}]}
 execute @s[tag=stafftag}] ~~~ playsound note.pling @s ~ ~ ~
 execute @s[tag=!stafftag] ~~~ playsound note.bass @s ~ ~ ~
 

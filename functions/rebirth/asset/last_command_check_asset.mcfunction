@@ -3,7 +3,7 @@ execute @s[scores={lstcmd=0}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"
 execute @s[scores={lstcmd=1}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6Staff Key §bcommand"}]}
 execute @s[scores={lstcmd=2}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function rebirth/DEV/tgm §bcommand"}]}
 execute @s[scores={lstcmd=3}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function rebirth/DEV/toggle-all-off §bcommand"}]}
-execute @s[scores={lstcmd=4}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function rebirth/DEV/unity-anarchy-init §bcommand"}]}
+execute @s[scores={lstcmd=4}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function rebirth/DEV/rva-init §bcommand"}]}
 execute @s[scores={lstcmd=5}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6hometp item command"}]}
 execute @s[scores={lstcmd=6}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6player stats item command"}]}
 execute @s[scores={lstcmd=7}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6setspawn item command"}]}
@@ -44,8 +44,12 @@ execute @s[scores={lstcmd=36}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":
 #toggles
 execute @s[scores={lstcmd=37}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/anticbe-off §bcommand"}]}
 execute @s[scores={lstcmd=38}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/anticbe-on §bcommand"}]}
+execute @s[scores={lstcmd=110}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/extra_anticbe-off §bcommand"}]}
+execute @s[scores={lstcmd=111}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/extra_anticbe-on §bcommand"}]}
 execute @s[scores={lstcmd=39}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/antifly-off §bcommand"}]}
 execute @s[scores={lstcmd=40}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/antifly-on §bcommand"}]}
+execute @s[scores={lstcmd=112}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/antiphase-off §bcommand"}]}
+execute @s[scores={lstcmd=113}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/antiphase-on §bcommand"}]}
 execute @s[scores={lstcmd=41}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/bottombedrock-off §bcommand"}]}
 execute @s[scores={lstcmd=42}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/bottombedrock-on §bcommand"}]}
 execute @s[scores={lstcmd=43}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function toggle/clearspawneggs-off §bcommand"}]}
@@ -123,7 +127,7 @@ execute @s[scores={lstcmd=108}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text"
 execute @s[scores={lstcmd=109}] ~~~ tellraw @a[tag=stafftag] {"rawtext":[{"text":"§¶§cRebirth §b→ §d"},{"selector":"@s"},{"text":"'s §blast command was the §6function KIT/netherite_kit §bcommand"}]}
 
 
-# highest is 106
+# highest is 113
 #This hides this from the in-game function command directory
 execute @f ~~~ hide
 tag @f[tag=""] add hide
