@@ -8,6 +8,9 @@ execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set eacmtog
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set afmtoggledummy afmtoggle 1
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a afmtoggle = afmtoggledummy afmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set afmtoggledummy AFM 1
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set apmtoggledummy apmtoggle 1
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a apmtoggle = apmtoggledummy apmtoggle
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set apmtoggledummy APM 1
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set bbmtoggledummy bbmtoggle 1
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a bbmtoggle = bbmtoggledummy bbmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set bbmtoggledummy BBM 1

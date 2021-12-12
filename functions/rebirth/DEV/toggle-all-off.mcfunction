@@ -2,9 +2,15 @@
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set acmtoggledummy acmtoggle 0
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a acmtoggle = acmtoggledummy acmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set acmtoggledummy ACM 0
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set eacmtoggledummy eacmtoggle 0
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a eacmtoggle = eacmtoggledummy eacmtoggle
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set eacmtoggledummy EACM 0
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set afmtoggledummy afmtoggle 0
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a afmtoggle = afmtoggledummy afmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set afmtoggledummy AFM 0
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set apmtoggledummy apmtoggle 0
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a apmtoggle = apmtoggledummy apmtoggle
+execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set apmtoggledummy APM 0
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set bbmtoggledummy bbmtoggle 0
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players operation @a bbmtoggle = bbmtoggledummy bbmtoggle
 execute @s[tag=stafftag,name=PointNetwork341] ~~~ scoreboard players set bbmtoggledummy BBM 0

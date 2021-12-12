@@ -16,6 +16,9 @@ execute @s[scores={acmtoggle=1},tag=!stafftag] ~~~ clear @s command_block
 execute @s[scores={acmtoggle=1},tag=!stafftag] ~~~ clear @s chain_command_block
 execute @s[scores={acmtoggle=1},tag=!stafftag] ~~~ clear @s repeating_command_block
 
+execute @s[scores={acmtoggle=1},tag=!stafftag] ~~~ clear @s beehive
+execute @s[scores={acmtoggle=1},tag=!stafftag] ~~~ clear @s bee_nest
+
 #flower pots (yes i know lol, you can cbe with them)
 execute @r[scores={acmtoggle=1},tag=!ownertag] ~~~ clear @s flower_pot
 execute @s[scores={acmtoggle=1},tag=!ownertag] ~ ~ ~ fill ~8 ~5 ~8 ~-8 ~-5 ~-8 air 0 replace flower_pot
